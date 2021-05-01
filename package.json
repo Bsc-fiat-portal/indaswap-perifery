@@ -1,0 +1,18 @@
+{
+  "name": "periphery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "sol-merger": "^3.1.0"
+  },
+  "scripts": {
+    "build-contracts": "sol-merger \"./contracts/*.sol\" ./build"
+  },
+  "author": "",
+  "license": "ISC"
+}
